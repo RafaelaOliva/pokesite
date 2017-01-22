@@ -1,0 +1,33 @@
+header {
+  min-height: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #FFFFFF;
+  z-index: 2;
+}
+
+body {
+  background-image: url("/images/pokemonbg0.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div.absolute {
+  position: relative;
+  top: 104px;
+  height: 526px;
+  width: 397px;
+  background-color: #ffffff;
+}
+
+#Formulario {
+  top: 120px;
+  right: 50px;
+  left: 50px
+}
